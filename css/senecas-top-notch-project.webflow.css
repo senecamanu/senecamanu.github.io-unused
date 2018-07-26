@@ -429,19 +429,19 @@ blockquote {
 
 .card.card1-content {
   position: relative;
-  background-image: url('../images/michal-parzuchowski-224092-unsplash.jpg');
+  background-image: url('../images/michal-parzuchowski-224092-unsplash-resize.jpg');
   background-position: 8% 50%;
   background-size: cover;
 }
 
 .card.card2-content {
-  background-image: url('../images/natalie-pedigo-306019-unsplash.jpg');
+  background-image: url('../images/natalie-pedigo-306019-unsplash-resize.jpg');
   background-position: 31% 10%;
   background-size: cover;
 }
 
 .card.card3-content {
-  background-image: url('../images/goran-ivos-246271-unsplash.jpg');
+  background-image: url('../images/goran-ivos-246271-unsplash-resize.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -912,7 +912,7 @@ blockquote {
   padding-left: 0px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  background-image: url('../images/nik-macmillan-280300-unsplash.jpg');
+  background-image: url('../images/nik-macmillan-280300-unsplash-resize.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1675,6 +1675,22 @@ blockquote {
 .section-3 {
   margin-top: 52px;
   border-bottom: 2px solid rgba(0, 0, 0, .09);
+}
+
+.div-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.about-link {
+  margin-right: 8px;
 }
 
 @media (max-width: 991px) {
